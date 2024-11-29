@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Codificador</h1>
+    </header>
+    <main>
+        <label for="key">Palabra clave</label>
+        <input type="text" id="key">
+        <p id="error"></p>
+        <div>
+            <textarea name="codificador" id="codificador" rows="10" cols="40" editable></textarea>
+        </div>
+        <div id="botones">
+            <button id="codify"><img src="../recursos/arrow.webp" alt="flecha" ></button>
+            <button id="discodify"><img src="../recursos/arrow.webp" alt="flecha" id="inverted"></button>
+        </div>
+        <div>
+            <textarea name="result" id="result" rows="10" cols="40" editable></textarea>
+        </div>
+    </main>
+</body>
+</html>

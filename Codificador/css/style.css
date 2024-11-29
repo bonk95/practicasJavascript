@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color:rgb(31, 160, 117);
+    padding-top: 1.5%;
+    text-align: center;
+    border: 4px solid rgb(8, 59, 42);
+    height: 20%;
+}
+
+h1{
+    padding-bottom: 3%;
+    font-size: 4rem;
+    color: rgb(128, 226, 194);
+}
+
+main{
+    height: 80%;
+    padding-top: 3%;
+    background-color: rgb(128, 226, 194);
+    text-align: center;
+    overflow: auto;
+}
+
+#botones{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+button{
+    width: 5%;
+}
+
+img{ 
+    width: 50%;
+    height: auto;
+    rotate: 90deg;
+}
+
+#inverted{
+    rotate: 270deg;
+}
+
+#key{
+    margin-bottom: 2%;
+}
+
+textarea{
+    
+}
+
+
